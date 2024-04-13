@@ -104,3 +104,9 @@ body {
     padding-top: 2vh ;
     font-size: 2.0rem;
 }
+
+.card:hover{
+    transform: scale(105%);
+    transition: 300ms;
+    box-shadow: #000;
+}
