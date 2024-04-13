@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick Resume</title>
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="icon" href="img/logo.png" type="Images/CV2">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header of Website -->
+    <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark text-light fixed-top">
+          <a class="navbar-brand px-4" href="#">
+              <img src="img/logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+          </a>
+          <a class="navbar-brand" href="#">Quick Resume</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+              <ul class="navbar-nav px-4">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#Home">Home </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#About">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#Templates">Templates</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+  </div>
+  
+   
+    <section id="Home">
+        <div class="container-fluid">
+            <h1>Welcome to Quick Resume </h1><br>
+            <p>Create Instant Resumes, We offer Multiple Templates.</p>
+            <button class="btn" type="button" onclick="window.location.href='#Templates'">Create Resume Now</button>
+        </div>
+    </section>
+
+    <section id="About">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h2>About Us</h2>
+                    <p>Quick Resume is dedicated to providing an efficient and user-friendly platform for creating professional resumes and CVs. With a wide range of templates and customization options, we empower individuals to craft personalized resumes tailored to their unique career goals.</p>
+                    <p>Our mission is to simplify the resume-building process, saving time and effort for job seekers worldwide. Whether you're a recent graduate, seasoned professional, or career changer, Quick Resume is here to help you showcase your skills and experience effectively.</p>
+                    <p>No Sign In Required.</p>
+                    <p>Fully Customisable.</p>
+                    <p>Multiple Templates.</p>
+                    <p>Instant Resumes.
+                    <p>Easy/Free to Use.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Templates">
+      <div class="container">
+          <div class="row">
+            <h2>Templates</h2>
+            <p>Choose From the Following Template.</p>
+              <div class="col-lg-6 py-5">
+                  <div class="card">
+                      <img src="img/template.jpg" class="card-img-top" alt="Template 1" style="height: 100vh;">
+                      <div class="card-body">
+                          <h5 class="card-title">Template 1</h5>
+                          <p class="card-text">This template offers a modern design for your resume.</p>
+                          <a href="#" class="btn btn-primary" onclick="window.location.href='resume.html'">Create</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 py-5">
+                  <div class="card">
+                      <img src="img/template2.jpg" class="card-img-top" alt="Template 2" style="height: 100vh;">
+                      <div class="card-body">
+                          <h5 class="card-title">Template 2</h5>
+                          <p class="card-text">This is a basic template for your resume.</p>
+                          <a href="#" class="btn btn-primary" onclick="window.location.href='resume2.html'">Create</a>
+                      </div>
+                  </div>
+              </div>
+              
+          </div>
+      </div>
+    </section>
+
+    <section id="copyright">
+      <footer class="bg-body-tertiary text-center text-lg-start">
+        <div class="container p-4 pb-0 d-flex justify-content-center">
+          <form action="">
+            <div class="row">
+              <div class="col-auto">
+                <p class="pt-2 f">
+                <strong> Sign up for our newsletter</strong>
+                </p>
+              </div>
+              <div class="col-md-5 col-12 mb-4 mb-md-0">
+                <div data-mdb-input-init class="form-outline mb-4">
+                  <input type="email" id="form5Example22" class="form-control" placeholder="xyz@gmail.com"/>
+                  <label class="form-label" for="form5Example22">Email address</label>
+                </div>
+              </div>
+              <div class="col-auto mb-4 mb-md-0">
+                <button data-mdb-ripple-init type="button" class="btn btn-dark mb-5 px-5">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0); color: aliceblue;">
+          © 2024 Copyright: Wavy Designers
+        </div>
+      </footer>
+    </section>
+    
+</body>
+</html>
