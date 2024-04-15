@@ -573,3 +573,11 @@ textarea {
         visibility: hidden
     }
 }
+
+#mydiv{
+    position: absolute;
+}
+
+#mydivheader{
+    cursor: move;
+}
